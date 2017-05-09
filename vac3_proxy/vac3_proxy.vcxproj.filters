@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MemoryModule.cpp">
+      <Filter>MemoryModule</Filter>
+    </ClCompile>
+    <ClCompile Include="NBinaryStream.cpp">
+      <Filter>Narea</Filter>
+    </ClCompile>
+    <ClCompile Include="proxy_session.cpp" />
+    <ClCompile Include="proxy_server.cpp" />
+    <ClCompile Include="MD5.cpp">
+      <Filter>Hash</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MemoryModule">
+      <UniqueIdentifier>{65054669-1817-465d-b416-044c7e761813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Narea">
+      <UniqueIdentifier>{1a20cd21-9655-4447-8492-a8cc4bedac2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encryption">
+      <UniqueIdentifier>{379974e0-9dc1-4ae9-9b2a-3ae97af356a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hash">
+      <UniqueIdentifier>{75746975-1575-45dd-bc8d-496e4112211e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MemoryModule.h">
+      <Filter>MemoryModule</Filter>
+    </ClInclude>
+    <ClInclude Include="NBinaryStream.hpp">
+      <Filter>Narea</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy_server.hpp" />
+    <ClInclude Include="proxy_session.hpp" />
+    <ClInclude Include="proxy_protocol.hpp" />
+    <ClInclude Include="xor_encryption.hpp">
+      <Filter>Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>Hash</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="NBinaryStream.cpp">
+      <Filter>Narea</Filter>
+    </ClCompile>
+    <ClCompile Include="vac3_proxy_dll.cpp" />
+    <ClCompile Include="Breakpoint.cpp">
+      <Filter>HW Breakpoints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vac3_proxy\MemoryModule.cpp" />
+    <ClCompile Include="Preprocessor.cpp">
+      <Filter>Preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="Hash.cpp">
+      <Filter>Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="Module_MemoryDumper.cpp">
+      <Filter>Preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Narea">
+      <UniqueIdentifier>{a1fb9c21-0024-4b88-9248-ec6c079f3c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encryption">
+      <UniqueIdentifier>{fb29fb31-084e-4137-89e3-011f9872b313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HW Breakpoints">
+      <UniqueIdentifier>{d31dbe8c-4674-4656-b8a9-31f58dfbab21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Preprocessor">
+      <UniqueIdentifier>{89ffe425-67c7-4f06-93cd-c5644043114e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hash">
+      <UniqueIdentifier>{95eb6565-f5c0-4081-adbd-75041fea78fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NBinaryStream.hpp">
+      <Filter>Narea</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy_protocol.hpp" />
+    <ClInclude Include="proxy_client.hpp" />
+    <ClInclude Include="xor_encryption.hpp">
+      <Filter>Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Breakpoint.h">
+      <Filter>HW Breakpoints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vac3_proxy\MemoryModule.h" />
+    <ClInclude Include="Preprocessor.hpp">
+      <Filter>Preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash.hpp">
+      <Filter>Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="Module_MemoryDumper.hpp">
+      <Filter>Preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleUtils.hpp" />
+  </ItemGroup>
+</Project>

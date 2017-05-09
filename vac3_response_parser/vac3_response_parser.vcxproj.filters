@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="vac3_response_parser.cpp" />
+    <ClCompile Include="Modules\Module_8600h.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\ModuleParser.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_8a00h.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_ee00.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="VACStringArray.cpp" />
+    <ClCompile Include="Modules\Module_a800h.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_10c00.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Blacklist.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleUtils.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_6200.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_6e00h.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_1c400h.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_8200h.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_7800h.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_9a00.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Preprocessor\Preprocessor.cpp">
+      <Filter>Preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="Hash\Hash.cpp">
+      <Filter>Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="Hash\MD5.cpp">
+      <Filter>Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_6200_2.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module8000.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_5e00.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_c000.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_UserEnv.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_FileSystemCtrl.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_MappedProcessHandles.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_ProcessHash.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Module_HandleInvestigator.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{dcf44f08-8fb8-43ea-bf2d-5cad8c3741ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hash">
+      <UniqueIdentifier>{eddc8402-c123-4f9d-8efb-18678b99392c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Preprocessor">
+      <UniqueIdentifier>{9deabd81-3b72-4afc-a1fd-03adaf5007bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VACStringArray.hpp" />
+    <ClInclude Include="Modules\ModuleParser.hpp">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules\Blacklist.hpp">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleUtils.hpp">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Preprocessor\Preprocessor.hpp">
+      <Filter>Preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash\Hash.hpp">
+      <Filter>Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash\MD5.h">
+      <Filter>Hash</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
