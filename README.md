@@ -7,3 +7,6 @@ You have to set it up on a remote server to let it work properly.
 
 ![alt text](http://i.epvpimg.com/4l1Teab.png)
 ![alt text](http://i.epvpimg.com/GYLrfab.png)
+
+
+WTFPL – Do What the Fuck You Want to Public License http://www.wtfpl.net/
